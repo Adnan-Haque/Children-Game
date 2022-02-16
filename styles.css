@@ -1,0 +1,75 @@
+body{
+    background-image: url("kids_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-size: 100% 100%; */
+    padding: 50px;
+}
+
+#container-numbers{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbers{
+    border: 1px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    margin: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #00c2ff;
+    font-size: 60px;
+    color: #003140;
+}
+
+.numbers:hover{
+    background-color: #00c2ff;
+    color:#003140;
+    box-shadow: 5px 10px 8px #888888;
+    transition: all 4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+/* .numbers.nojQuery ul#mainFilter a:hover {
+    background-color: #00c2ff;
+    color:#003140;
+} */
+
+#button-reset{
+    text-align: center;
+}
+
+h1{
+    width: 100%;
+    color: #003140;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #003140;
+    text-align: center;
+}
+
+#button-reset{
+    color: #003140;
+    height: 40px;
+    width: 8%;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #003140;
+}
+
+#button-reset:hover{
+    color: white;
+    background-color: red;
+    box-shadow: 5px 10px 8px #888888;
+    transition: all 4s ease;
+    -webkit-transition: all .4s ease;
+}
